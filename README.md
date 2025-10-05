@@ -3,10 +3,10 @@
 AtliQ Hardware is growing rapidly in the recent years, and they have decided to implement the data analytics using PowerBi in their company for the first time to surpass their competitors in the market and to make data driven decisions. This project is hoped to give answers to the questions of stakeholder in terms all the aspects like finance, sales, marketing and supply chain.
 
 ## Tools Used
-SQL <br>
-Power BI Desktop <br>
-Excel <br>
-DAX language 
+- SQL <br>
+- Power BI Desktop <br>
+- Excel <br>
+- DAX language 
 
 ## PowerBI techniques Learnt
 What are all the questions should be asked before staring the project <br>
@@ -27,10 +27,10 @@ Setting up personal gateway to set up the auto refresh of data <br>
 PowerBi App creation <br>
 Collaboration, workspace, access permissions in PowerBi services <br>
 ## Domain Knowledge
-Finance  <br>
-Sales <br>
-Marketing <br>
-Supply Chain <br>
+- Finance  <br>
+- Sales <br>
+- Marketing <br>
+- Supply Chain <br>
 ## DAX Functions
 CALCULATE ( ) <br>
 DIVIDE ( ) <br>
@@ -75,3 +75,14 @@ Project kick off session, where you should get clear of for what and why this pr
 - what are all the resources/ data needed to build this dashboard?
 - is there any inputs from stakeholders in terms of design and views of the dashboard? <br>
   After the project kick off meetings, the data engineering team has given the data as per the request of data analytics team, let’s explore them.
+
+  ## Importing data into PowerBi
+As the database is MySQL in this project, we need to import the datasets from Mysql database to PowerBi by providing the Database access credential
+Dashboard designing
+Based on the mock ups received as requirement, the team will start designing the visuals and create measure as and when required
+
+## Data Model
+- Data modeling plays a vital role and is considered as the basement of report. All the visuals will be build upon the data model.
+- Poor data modeling affects the over all performance of the report.
+- Following good practices of data modeling is must. 
+- In this project, we have followed Snowflake data modeling method.
